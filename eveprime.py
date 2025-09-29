@@ -2,6 +2,7 @@ num = int(input("Enter a number: "))
 if num % 2 == 0:
     print(f"{num} is even.")
 else:
+
     print(f"{num} is odd.")
 # Check if a number is prime
 
@@ -16,3 +17,6 @@ else:
             break
     else:
         print(f"{num} is a prime number.")
+
+    print(f"{num} is odd.")
+
